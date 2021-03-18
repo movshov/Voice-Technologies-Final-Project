@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "dad jokes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "joke",
+          "slots": [
+            {
+              "name": "type",
+              "type": "type"
+            }
+          ],
+          "samples": [
+            "give me another {type} joke",
+            "say another {type} joke",
+            "tell me another {type} joke",
+            "what\u0027s a good {type} joke",
+            "can you tell me a {type} joke",
+            "say a {type} joke",
+            "tell me a {type} joke",
+            "give me a {type} joke"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dad"
+              }
+            },
+            {
+              "name": {
+                "value": "brick joke",
+                "synonyms": [
+                  "brick-jokes",
+                  "brick-joke"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "computer science"
+              }
+            },
+            {
+              "name": {
+                "value": "pun",
+                "synonyms": [
+                  "punny"
+                ]
+              }
+            }
+          ],
+          "name": "type"
+        }
+      ]
+    }
+  },
+  "version": "6"
+}
